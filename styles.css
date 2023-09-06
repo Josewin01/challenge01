@@ -8,6 +8,7 @@
 }
 
 .container{
+    /* border: 3px solid red; */
     width: 1150px;
     margin: 1rem auto;
 }
@@ -15,10 +16,11 @@
 .home{
     width: 100%;
     height: 100vh;
-    background: url(image/blog-1.jpg);
-    /* background-color: #bdbdbd; */
+    background: url(blog-1.jpg);
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
+    overflow: hidden;
 }
 
 nav{
@@ -49,7 +51,7 @@ nav ul li a{
     padding: 2rem;
     text-align: center;
     width: 700px;
-    margin: 0 auto;
+    margin: 5rem auto;
 }
 
 .banner p{
@@ -114,15 +116,15 @@ input{
 
 .post-flex{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 
 
 
 .post-box{
-    width: 25%;
-    margin: 0 1rem;
+    width: 32%;
+    /* margin: 0 1rem; */
 }
 .post-box a {
     color: #3a3a3a;
@@ -146,12 +148,14 @@ input{
 }
 
 .visit{
-    background: linear-gradient(rgba(212, 211, 211,0.3), #f7f5f4)
+    text-align: center;
+    padding-top: 4rem;
+    background: linear-gradient(rgb(250, 234, 234)#f7f5f4)
 }
 
 .visit-flex{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     /* border: 3px solid red; */
 }
 
@@ -160,8 +164,7 @@ input{
     position: relative;
     overflow: hidden;
     height: 33rem;
-    width: 22%;
-    margin: 0 2rem;
+    width: 32%;
 }
 
 
@@ -198,14 +201,11 @@ input{
 
 
 
-.visit-banner{
-    background-color: #f7f5f4;
-}
 
 
 .visit-form{
     position: relative;
-    width: 65%;
+    width: 1150px;
     margin: 0 auto;
     background-color: #805843;
     padding: 4rem;
@@ -224,7 +224,7 @@ input{
 
 .visit-form p{
     font-weight: 200;
-    color: #aaaaaa;
+    color: #fff;
     font-size: 1rem
 }
 
@@ -238,5 +238,5 @@ input{
 
 
 .video{
-    height: 100vh;
+    padding-top: 4rem;
 }
