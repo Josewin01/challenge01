@@ -30,6 +30,7 @@ nav{
 
 .nav-flex{
     align-items: center;
+    text-align: center;
     padding: 0 1rem;
     display: flex;
     justify-content: space-between;
@@ -45,6 +46,11 @@ nav ul li a{
     font-family: sans-serif;
     color: #3a3a3a;
     text-transform: uppercase;
+    transition: .3s;
+}
+
+nav ul li a:hover{
+    color: #cf9676;
 }
 
 .banner{
@@ -126,6 +132,13 @@ input{
 .post-box{
     width: 32%;
     /* margin: 0 1rem; */
+}
+
+.post-box img{
+    transition: .4s;
+}
+.post-box img:hover{
+    transform: translateY(-15px);
 }
 .post-box a {
     color: #3a3a3a;
@@ -318,7 +331,6 @@ input{
     font-size: 1rem;
 }
 
-
 .contact{
     background: linear-gradient(rgba(30,30,30,.4), rgba(30,30,30,.4)), url(blog-08.jpg);
     background-size: cover;  
@@ -354,4 +366,8 @@ footer ul li a{
     padding: 0 1rem;
     color: white;
     text-transform: uppercase;
+    transition: .3s;
+}
+footer ul li a:hover{
+    color: #a06e53;
 }
