@@ -275,7 +275,7 @@ input{
 
 
 .about{
-    padding-top: 10rem;
+    padding: 10rem 0 5rem 0;
 }
 .about h2{
     font-weight: 500;
@@ -316,4 +316,14 @@ input{
 .about-text p a{
     color: #575757;
     font-size: 1rem;
+}
+
+
+.contact{
+    background: linear-gradient(rgba(30,30,30,.4), rgba(30,30,30,.4)), url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 3rem 0;
 }
