@@ -320,10 +320,19 @@ input{
 
 
 .contact{
-    background: linear-gradient(rgba(30,30,30,.4), rgba(30,30,30,.4)), url(bg.jpg);
-    background-size: cover;
+    background: linear-gradient(rgba(30,30,30,.4), rgba(30,30,30,.4)), url(blog-08.jpg);
+    /* background-size: cover;   */
     background-position: center;
     color: white;
     text-align: center;
-    padding: 3rem 0;
+    padding: 5rem 0;
+}
+
+.contact h3{
+    font-family: serif;
+    width: 50%;
+    margin: 1rem auto;
+    font-size: 3rem;
+    font-weight: 200;
+
 }
