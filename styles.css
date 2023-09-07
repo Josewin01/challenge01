@@ -272,3 +272,48 @@ input{
     font-size: 1.5rem;
     margin: 1.5rem 0;
 }
+
+
+.about{
+    padding-top: 10rem;
+}
+.about h2{
+    font-weight: 500;
+    margin: 2rem 0 3rem 0;
+    color: #cf9676;
+    font-family: serif;
+    font-size: 2rem;
+}
+
+.about-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-flex img{
+    width: 40%;
+    border-radius: 50%;
+}
+.about-text{
+    width: 50%;
+    display: block;
+}
+.about-text h5{
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: serif;
+}
+.about-text p{
+    font-family: serif;
+    font-size: 1.3rem;
+    margin: 1.5rem 0;
+}
+
+.about-text span{
+    color: #575757;
+    padding-bottom: 2rem;
+}
+.about-text p a{
+    color: #575757;
+    font-size: 1rem;
+}
