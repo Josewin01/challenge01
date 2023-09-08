@@ -4,7 +4,8 @@
     box-sizing: border-box;
     overflow-x: hidden;
     text-decoration: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
 }
 
 .container{
@@ -276,6 +277,8 @@ input{
     width: 100%;
 }
 .video-box a i{
+    top: 0;
+    left: 0;
     color: white;
     font-size: 2rem;
     position: absolute;
@@ -371,3 +374,9 @@ footer ul li a{
 footer ul li a:hover{
     color: #a06e53;
 }
+
+
+
+/* ----------------  Food Section ---------------- */
+
+
