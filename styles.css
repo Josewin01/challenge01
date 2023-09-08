@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    /* list-style: none; */
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     scroll-behavior: smooth;
@@ -272,21 +273,31 @@ input{
     margin: 0 .5rem;
 
 }
-.video-box img{
+.video-play{
     position: relative;
     width: 100%;
 }
-.video-box a i{
-    top: 0;
-    left: 0;
+.video-box img{
+    /* position: relative; */
+    width: 100%;
+    z-index: -1;
+}
+.video-play a i{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     color: white;
-    font-size: 2rem;
+    font-size: 5rem;
     position: absolute;
-    text-align: center;
+    /* z-index: 2; */
+    /* text-align: center; */
 }
 .video-box p{
     font-size: 1.5rem;
     margin: 1.5rem 0;
+}
+.star{
+    color: rgb(189, 160, 0);
 }
 
 
@@ -374,9 +385,52 @@ footer ul li a{
 footer ul li a:hover{
     color: #a06e53;
 }
+.foot-social{
+    padding: 2rem 0;
+}
+.foot-social i{
+    padding: 0 .5rem;
+}
 
 
 
 /* ----------------  Food Section ---------------- */
 
+hr{
+    color: #aaaaaa;
+    margin-top: 3rem;
+}
 
+
+.food{
+    padding-top: 6rem;
+    width: 900px;
+    margin: 0 auto;
+    color: #3a3a3a;
+}
+
+.food h1{
+    font-family: serif;
+    color: #a3765d;
+    font-weight: 400;
+    font-size: 2.5rem;
+    /* padding-bottom: 2rem; */
+}
+
+
+.eachFood img{
+    padding: 2rem 0;
+}
+
+
+.eachFood h3 a{
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: serif;
+    color: #3a3a3a;
+    margin-bottom: 2rem;
+}
+
+.eachFood p a{
+    color: #a3765d;
+}
